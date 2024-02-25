@@ -10,6 +10,6 @@ public interface AppointmentService {
 
     AppointmentModel addAppointment(AppointmentModel AppointmentModel);
     List<AppointmentModel> getAllAppointment();
-    List<AppointmentModel> deleteAppointment(Long id);
-    AppointmentModel updateAppointment(Long id,AppointmentModel AppointmentModel);
+    List<AppointmentModel> deleteAppointment(String id);
+    AppointmentModel updateAppointment(String id,AppointmentModel AppointmentModel);
 }

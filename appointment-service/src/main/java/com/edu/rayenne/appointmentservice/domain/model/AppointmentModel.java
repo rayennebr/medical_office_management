@@ -6,7 +6,7 @@ import java.util.Date;
 
 @Builder
 public record AppointmentModel(
-        Long appointmentUid,
+        String appointmentUid,
         Date appointmentDate,
         String appointmentStatus,
         String appointmentLabel,
